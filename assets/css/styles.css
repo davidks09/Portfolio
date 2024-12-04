@@ -1,0 +1,72 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #0077cc;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+#introduction h2 {
+    font-size: 2rem;
+}
+
+#highlight .highlighted-project {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 1em;
+    margin: 2em auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#highlight .highlighted-project h3 {
+    color: #0077cc;
+}
+
+#highlight .highlighted-project .btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#highlight .highlighted-project .btn:hover {
+    background: #005fa3;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
