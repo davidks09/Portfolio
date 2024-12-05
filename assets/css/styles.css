@@ -104,3 +104,37 @@ footer {
 .project-card .btn:hover {
     background: #005fa3;
 }
+
+/* Project Details Page */
+#project-overview, #methodology, #results, #code-link {
+    margin: 2em auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+#project-overview h2, #methodology h2, #results h2, #code-link h2 {
+    color: #0077cc;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+#project-overview p, #methodology ul, #results ul {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+#code-link a.btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#code-link a.btn:hover {
+    background: #005fa3;
+}
