@@ -138,3 +138,46 @@ footer {
 #code-link a.btn:hover {
     background: #005fa3;
 }
+/* Disabled button style */
+.btn.disabled {
+    background: #ddd;
+    color: #888;
+    cursor: not-allowed;
+    pointer-events: none;
+    text-decoration: none;
+}
+/* Contact Form */
+#contact-form {
+    margin: 2em auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact-form button {
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background: #005fa3;
+}
