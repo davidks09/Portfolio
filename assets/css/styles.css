@@ -70,3 +70,37 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Styles for project cards */
+.project-card {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 1em;
+    margin: 2em auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    color: #0077cc;
+    margin-bottom: 0.5em;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project-card .btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card .btn:hover {
+    background: #005fa3;
+}
